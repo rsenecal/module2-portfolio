@@ -1,61 +1,111 @@
-<!DOCTYPE html>
-<html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CSS Snippet Cheatsheet</title>
-  <link rel="stylesheet" href="assets/css/reset.css" />
-  <link rel="stylesheet" href="./assets/css/style.css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Roodolph Portfolio Page</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    
 </head>
-
 <body>
-    <header>
-        <nav class="navigation-bar">
-            <h1 class="page-title">
-                Roodolph Senecal
-            </h1>
-            <section class="nav-container">
-                <img class="logo" src="./assets/images/logoipsum-280.svg">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Home</a></li>
+    
+    <!-- Main Content -->
+    <main>
+
+        <!-- Header -->
+        <header class="header">
+            <nav>
+                <ul class="menu">
+                    <li class="logo"> <a href="#"> <img src="./assets/images/dev_photo_250.png" atl="Image of the developer"></a></li>
+                    <li class="item"> <a href="#aboutus"> About US</a></li>
+                    <li class=item> <a href="#ourwork"> Our Work</a></li>
+                    <li class="item"> <a href="#"> Contact us</a></li>
                 </ul>
-                
+            </nav>
+        </header>
+
+        <!-- Hero -->
+        <section class="hero">
+            <p>
+                <h2> Get to know our work, you will love it.</h2>
+            </p>
+        </section>
+
+        <div class="flex-container wrapper" id="aboutus">
+
+            <!-- Content -->
+            <section class="sidebar">
+                <h2>About Me</h2>             
             </section>
-        </nav>
+
+            <!-- Sidebar -->
+            <aside class="content">           
+                <p>
+                    My goal is to create a welcoming space for all. When you user vist your website or your application it's like entering a home in your home. We aim to make them at ease and make the experiece is memorable and pleasing. <strong>EVERY.BODY.BELONGS on the web.</strong>.
+                    </p>
+                    We think community first. We live and work to keep your connectd with those in your community. We hope to encourage great design and superior performance. 
+                </p>
+            </aside>
+
+        </div>
+
+        <div class="flex-container wrapper" id="ourwork">
+
+            <section class="sidebar">
+                <h2>Our work</h2>
+                <p>
+                    
+                </p>
+                            
+            </section>
+
         
-    </header>
-        <main class="porfolio-container">
-            <!-- Porfolio Starts -->
-            <section class="porfolio">
+            <aside class="content" id="portfolio-images">              
+                <section>
+                    <div>
+                      <h2>This project illustrate skill set 1,2 & 3</h2>
+                      <a href="https://github.com/rsenecal/prework-study-guide.git" target="_blank"> <img
+                        src="https://placehold.jp/800x400.png"
+                        alt="Show image of work 1"></a>
+                     
+                    </div>
+                  </section>
+            
+                  <section>
+                    <div class="photo scale">
+                      <a href="https://github.com/rsenecal/module2-portfolio" target="_blank" > <h2>This project illustrate skill set 4,5 & 6</h2>
+                      <img
+                        src="https://placehold.jp/800x400.png"
+                        alt="Show Image of work 2"></a>
+                      
+                    </div>
+                  </section>
+            
+                  <section>
+                    <div class="photo skew">
+                      <a href="https://github.com/rsenecal/first-day.git" target="_blank"> <h2>This project illustrate skill set 7,8 & 9</h2>
+                      <img
+                        src="https://placehold.jp/800x400.png"
+                        alt="Show Image of work 3"></a>
+                     
+                    </div>
+                  </section>
+            </aside>
 
-                <h2 class="side-label"> About Me</h2>
-                <div class="porfolio-bio">
-                   <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi ad necessitatibus voluptatibus nihil, earum, quasi totam corrupti beatae, autem repellendus numquam fugiat odio modi nobis rerum asperiores. Beatae, excepturi doloremque!</P>
-                </div>
+        </div>
 
-                <h2 class="side-label"> Work</h2>
-                <div class="porfolio-images">
-                    <img src="https://via.placeholder.com/300" atlt="place hoder imag1"> 
-                    <img src="https://via.placeholder.com/300" atlt="place hoder imag2">
-                    <img src="https://via.placeholder.com/300" atlt="place hoder imag2">
-                </div>
-            </section>
-        <!-- Porfolio Ends -->
+        <!-- Footer -->
+        <footer class="footer" id="contactus">
+            <nav>
+                <ul class="menu">
+                    <li class="item"> <a href="#aboutus"> Phone Number: 917-909-0987</a></li>
+                    <li class=item> <a href="mailto:fullmane@gcmail.com"> Email: fullname@gcmail.com</a></li>
+                    <li class="item"> <a href="https://www.instagram.com/"> Instagram</a></li>
+                    <li class="item"> <a href="https://github.com/"> github</a></li>
+                    <li class="item"> <a href="https://twitter.com/"> twitter</a></li>
+                </ul>
+            </nav>
+     </footer>
 
     </main>
 
-<footer>
-    <a href="#">Phone</a>
-    <a href="#">Email</a> 
-    <a href="#">Twitter</a>
-    <a href="#">Github</a>
-    <a href="#">Spotify</a>
-
-</footer>
-
-    
 </body>
+</html>
